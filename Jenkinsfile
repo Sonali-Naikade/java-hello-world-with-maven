@@ -14,7 +14,7 @@ pipeline{
         }
         stage('build'){
             steps{
-               echo "Packaging"
+               echo "Packaging Aplication"
                bat 'mvn package'
             }
         }
